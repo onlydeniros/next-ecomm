@@ -23,7 +23,7 @@ function ProductItem({ product }) {
         <p className="mb-2">{product.brand}</p>
         <p>${product.price}</p>
         <button
-          className="primary-button bg-amber-300 py-2 px-4 shadow outline-none hover:bg-amber-400 active:bg"
+          className="primary-button bg-amber-300 py-2 px-4 rounded shawdow hover:bg-amber-400 active:bg"
           type="button"
         >
           Add to Cart
